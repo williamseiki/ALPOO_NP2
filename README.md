@@ -2,7 +2,7 @@
 
 - CONTEUDO
   - Conexão JDBC com MySQL
-    - Prepared Statemente
+    - Prepared Statement
   - Connection Factory
   - Centralizando o que é manipulação de dados
     - Padrão DAO - Data Access Object
