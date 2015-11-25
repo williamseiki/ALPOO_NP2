@@ -73,6 +73,14 @@ Já o statement, sempre será compilado!
   
   #Padrão DAO- DATA ACCESS OBJECT
 
+  É um padrão para um objeto que fornece uma interface abstrata para algum tipo de banco de dados ou outro mecanismo de persistencia e que permite separar regras de negócio das regras de acesso a banco de dados. A vantagem de usar objetos de acesso a dados é a separação de simples e rigorosa entre duas partes importantes de uma aplicação que não devem e não podem conhecer quase que nada uma da outra, e que podem evoluir frequentemente e independentemente. O DAO implementa o mecanismo de acesso necessário para trabalhar com a fonte de dados. O DAO é um padrão flexivível e não uma regra, ele é utilizado em conjunto com Factory Pattern e Broker Pattern por isso é comum encontrar algumas variações de sua implementação, o padrão possui quatro especificações para que possa ser utilizado corretamente que são :
+
+- DataAccessObject - é o objeto principal desse padrão. O DAO abstrai a implementação fundamental de acesso a dados para business Objects para permitir acesso transparente à fonte de dados.
+- DataSourceObject - representa uma implementação da fonte de dados. Uma fonte de dados pode ser uma base de dados tal como um RDBMS, repositório XML, e assim por diante.
+- BusinesseObject - o objeto de negócios representa o dados do cliente. É o objeto que requer acesso à fonte de dados para obter e armazenar dados.
+- TransferObject - representa um objeto de transferência usando como um suporte de dados. o DAO pode usar um objeto de transferência para retornar dados para o cliente. Ele também pode receber os dados do cliente em um objeto de transferência para atualizar os dados na fonte de dados.
+
+Padrão MVC - Model View Controller
 
 
 
