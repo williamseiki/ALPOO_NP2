@@ -11,7 +11,7 @@
 #Conexão JDBC com MySQL
 
 - O que é JDBC?
-  Pode-se dizer que é uma API que reúne conjuntos de classes e interfaces escritas na linguagem Java na qual possibilita se conectar através de um driver específico do banco de dados desejado. Com esse driver pode-se executar instruções SQL de qualquer tipo de banco de dados relacional.
+Pode-se dizer que é uma API que reúne conjuntos de classes e interfaces escritas na linguagem Java na qual possibilita se conectar através de um driver específico do banco de dados desejado. Com esse driver pode-se executar instruções SQL de qualquer tipo de banco de dados relacional.
   Para fazer a comunicação entre a aplicação e o SGBDs é necessário possuir um driver para a conexão desejada.
   
 - O que é um Driver?
