@@ -32,7 +32,7 @@
   Os Prepared Statements são declarações preparadas – literalmente como uma tradução do inglês para o português – é usado para criar um objeto que representa a instrução SQL que será executada, sem variação sintática, sendo que é invocado através do objeto Connetion.
 
 
--Exemplo de conexão
+- Exemplo de conexão
   public class JDBCExemplo {
       public static void main(String[] args){
           class.forName("com.jdbc.mysql.Driver");
@@ -44,8 +44,7 @@
   
   - Diferença entre statement e prepared statement
   
-    Quando executamos um statement, seja ele prepared ou não, na primeira vez ele é compilado no banco de dados.
-    A diferença básica é que, o prepared statement, permite a passagem de parametro para o SQL e quando for chamado pela segunda vez, já estará compilada e preparado (como o nome diz) para ser executada, então, ganhamos algum tempo tornando as coisas um pouco mais ágeis.
+    Quando executamos um statement, seja ele prepared ou não, na primeira vez ele é compilado no banco de dados. A diferença básica é que, o prepared statement, permite a passagem de parametro para o SQL e quando for chamado pela segunda vez, já estará compilada e preparado (como o nome diz) para ser executada, então, ganhamos algum tempo tornando as coisas um pouco mais ágeis.
 
 Já o statement, sempre será compilado! 
 
